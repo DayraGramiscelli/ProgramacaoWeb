@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Senha</title>
+    <link rel="stylesheet" href="stylecodv.css">
+</head>
+<body>
+    <div class="change-password-container">
+        <h2>Alterar Senha</h2>
+        <p>Insira sua nova senha abaixo.</p>
+        <form action="nova-senha.html" method="POST">
+            <div class="input-group">
+                <label for="new-password">Nova Senha:</label>
+                <input type="password" id="new-password" name="new-password" placeholder="Digite sua nova senha" required>
+            </div>
+            <div class="input-group">
+                <label for="confirm-password">Confirmar Nova Senha:</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirme sua nova senha" required>
+            </div>
+            <button type="submit" class="btn-change-password">Alterar Senha</button>
+        </form>
+        <div class="back-login">
+            <a href="index.html">Voltar para Login</a>
+        </div>
+    </div>
+</body>
+</html>

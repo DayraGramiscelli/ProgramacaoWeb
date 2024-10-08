@@ -1,0 +1,175 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Layout principal */
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Cursos e Treinamentos */
+.course-grid, .training-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.course-item, .training-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  width: 30%;
+}
+
+.course-item h3, .training-item h3 {
+  color: #4CAF50;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.course-item p, .training-item p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.details-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.details-button:hover {
+  background-color: #45a049;
+}
+
+/* Ranking */
+.ranking {
+  margin-bottom: 40px;
+}
+
+.ranking h2 {
+  color: #4CAF50;
+  text-align: center;
+}
+
+.ranking-chart {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ranking-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ranking-item span {
+  width: 150px;
+}
+
+.bar {
+  background-color: #4CAF50;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 5px;
+}
+
+.bar.red {
+  background-color: red;
+}
+
+/* Relatos de Usuários */
+.testimonials {
+  margin-bottom: 40px;
+}
+
+.testimonials h2 {
+  color: #4CAF50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.testimonial-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+/* Calendário */
+.calendar h2 {
+  color: #4CAF50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.calendar iframe {
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
+
+/* Rodapé */
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}

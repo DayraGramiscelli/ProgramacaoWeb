@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 40px;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.ranking-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ranking-chart {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.user-bar {
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: right;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    overflow: hidden;
+}
+
+.user-bar span {
+    position: absolute;
+    left: 10px;
+    font-weight: normal;
+    color: #fff;
+}
+
+/* Classes que controlam a largura das barras */
+.bar1 { width: 100%; }  /* 1500 pontos */
+.bar2 { width: 93.3%; } /* 1400 pontos */
+.bar3 { width: 90%; }   /* 1350 pontos */
+.bar4 { width: 86.7%; } /* 1300 pontos */
+.bar5 { width: 83.3%; } /* 1250 pontos */
+.bar20 { width: 70%; }  /* 1050 pontos */
+.bar21 { width: 66.7%; } /* 1000 pontos */
+.bar22 { width: 63.3%; } /* 950 pontos */
+.bar23 { width: 60%; }  /* 900 pontos */
+.bar24 { width: 56.7%; } /* 850 pontos */
+.bar25 { width: 53.3%; } /* 800 pontos */
+
+/* Últimos 5 usuários em vermelho */
+.user-bar.last-users {
+    background-color: #FF6347;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}

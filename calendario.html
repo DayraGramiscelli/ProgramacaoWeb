@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário - X Culture</title>
+    <link rel="stylesheet" href="stylecalendario.css">
+</head>
+<body>
+    <!-- Cabeçalho padrão -->
+    <header>
+        <h1>X Culture</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Início</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="treinamentos.html">Treinamentos</a></li>
+                <li><a href="certificados.html">Certificados</a></li>
+                <li><a href="ranking.html">Ranking</a></li>
+                <li><a href="calendario.html">Calendário</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Corpo da página de Calendário -->
+    <main>
+        <h2>Calendário de Datas Culturais e Religiosas</h2>
+
+        <!-- Calendário de Datas -->
+        <section class="calendar-section">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Evento</th>
+                        <th>Religião/Cultura</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01 de Janeiro</td>
+                        <td>Ano Novo</td>
+                        <td>Ocidental</td>
+                    </tr>
+                    <tr>
+                        <td>06 de Janeiro</td>
+                        <td>Epifania</td>
+                        <td>Cristianismo</td>
+                    </tr>
+                    <tr>
+                        <td>05 de Abril</td>
+                        <td>Ramadã</td>
+                        <td>Islamismo</td>
+                    </tr>
+                    <tr>
+                        <td>13 de Abril</td>
+                        <td>Songkran (Ano Novo Tailandês)</td>
+                        <td>Cultura Tailandesa</td>
+                    </tr>
+                    <tr>
+                        <td>21 de Março</td>
+                        <td>Nowruz (Ano Novo Persa)</td>
+                        <td>Zoroastrismo/Persa</td>
+                    </tr>
+                    <tr>
+                        <td>25 de Dezembro</td>
+                        <td>Natal</td>
+                        <td>Cristianismo</td>
+                    </tr>
+                    <!-- Adicione mais datas conforme necessário -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Formulário para sugestão de novas datas -->
+        <section class="suggestion-section">
+            <h3>Sugerir Nova Data</h3>
+            <form action="#" method="post">
+                <label for="date">Data:</label>
+                <input type="date" id="date" name="date" required><br>
+
+                <label for="event">Evento:</label>
+                <input type="text" id="event" name="event" placeholder="Nome do evento" required><br>
+
+                <label for="culture">Religião/Cultura:</label>
+                <input type="text" id="culture" name="culture" placeholder="Ex.: Islamismo, Cultura Tailandesa" required><br>
+
+                <input type="submit" value="Enviar Sugestão">
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 X Culture. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

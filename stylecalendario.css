@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 40px;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.calendar-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+.calendar-section table th,
+.calendar-section table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.calendar-section table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.calendar-section table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.suggestion-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.suggestion-section form {
+    display: inline-block;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.suggestion-section form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.suggestion-section form input[type="date"],
+.suggestion-section form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.suggestion-section form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.suggestion-section form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}

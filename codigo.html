@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar Código</title>
+    <link rel="stylesheet" href="stylecod.css">
+</head>
+<body>
+    <div class="code-container">
+        <h2>Verificação de Código</h2>
+        <p>Insira o código de verificação enviado para seu email.</p>
+        <form action="cod-verif.html" method="POST">
+            <div class="input-group">
+                <label for="codigo">Código de Verificação:</label>
+                <input type="text" id="codigo" name="codigo" placeholder="Digite o código" required>
+            </div>
+            <button type="submit" class="btn-verify">Verificar Código</button>
+        </form>
+        <div class="resend-code">
+            <p>Não recebeu o código? <a href="#">Reenviar código</a></p>
+        </div>
+    </div>
+</body>
+</html>

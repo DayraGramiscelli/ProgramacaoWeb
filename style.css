@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #4acc7e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.forgot-password {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #4CAF50;
+  text-decoration: none;
+  text-align: right;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.terms {
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.terms label {
+  font-size: 14px;
+  color: #555;
+}
+
+.terms a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  background-color: #45a049;
+}
